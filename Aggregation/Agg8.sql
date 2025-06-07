@@ -1,3 +1,10 @@
+Question 8: Most Popular Product Each Month
+Tables: Orders(OrderID, OrderDate), OrderItems(OrderID, ProductID)
+Group by month and ProductID, and return the product with the highest order count per month.
+
+------------------------------------------------------
+
+
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
     OrderDate DATE
