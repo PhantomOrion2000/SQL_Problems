@@ -1,3 +1,9 @@
+Question 7: Daily Average Sales by Store
+Table: Sales(StoreID, SaleDate, Amount)
+Group by StoreID and SaleDate and get average daily sales.
+
+---------------------------------------------------------------
+
 CREATE TABLE Sales (
     StoreID INT,
     SaleDate DATE,
